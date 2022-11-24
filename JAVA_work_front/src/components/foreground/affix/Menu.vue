@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <!-- 打开菜单栏固钉 -->
     <div class="menu_box hidden-sm-and-up" @click="visible = true" title="菜单">
@@ -9,7 +10,7 @@
     <div class="hidden-sm-and-up">
         <el-drawer v-model="visible" :show-close="true" size="55%">
             <!-- 标题 -->
-            <template #header="{ close, titleId, titleClass }">
+            <template #header="{}">
                 <img src="../../../assets/logo.svg" alt="" style="width: 60%;">
             </template>
 
@@ -24,21 +25,11 @@
     // 引入菜单列表自定义组件
     import MenuList from './menu/MenuList.vue'
     import {
-        Menu
-    } from '@element-plus/icons-vue'
-    import {
-        ref,
         reactive,
         toRefs,
         onMounted
     } from 'vue'
-    import {
-        ElButton,
-        ElDrawer
-    } from 'element-plus'
-    import {
-        CircleCloseFilled
-    } from '@element-plus/icons-vue'
+
 
     export default {
         components: {

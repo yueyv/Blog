@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <el-row :gutter="20">
     <el-col :xs="0" :sm="1" :md="1" :lg="3" :xl="4">
@@ -37,15 +38,13 @@
   import SearchCard from '../../otherModules/searchCard/index.vue';
   // 其他内容 文章分类
   import ArticleCategories from '../../otherModules/articleCategories/index.vue';
-  // 其他内容：站点信息
-  import OtherModules from '../../otherModules/websiteInfo/index.vue'
+
   // 其他内容：精选
   import Featured from '../../otherModules/featured/index.vue';
 
   export default {
     components: {
       MainContent,
-      OtherModules,
       SearchCard,
       ArticleCategories,
       Featured

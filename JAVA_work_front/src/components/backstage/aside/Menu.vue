@@ -1,10 +1,11 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <el-menu :default-active="route.path" class="el-menu-vertical-mode" color="white" text-color="#67879b" router
         :unique-opened="false" unique-opened :default-openeds="[route.path]">
         <div class="imgBox hidden-xs-only" >
             <img src="../../../assets/logo.svg">
         </div>
-        <template v-for="v in menuData" :key="v.id" style="width:100%;">
+        <template v-for="v in menuData" :key="v.id" style="width:100%">
             <el-sub-menu v-if="v.childMenu.length>0" index="/articleOperation">
                 <template #title >
                     <el-icon>

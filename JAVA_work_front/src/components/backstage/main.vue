@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div id="backstage">
         <!-- 背景图片 -->
@@ -33,9 +34,6 @@
     // 引入左侧菜单栏自定义组件
     import AsideMenu from '../../components/backstage/aside/Menu.vue';
 
-    import {
-        ElNotification,
-    } from 'element-plus'
 
 
     export default {

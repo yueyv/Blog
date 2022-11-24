@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="main_content">
         <div>
@@ -15,8 +16,6 @@
 
 </template>
 <script>
-    // 验证码组件
-    import VerificationCode from '../verification-code/verificationCode.vue'
 
     import {
         reactive,
@@ -29,7 +28,6 @@
     import axios from "axios";
 
     import {
-        ElNotification,
         ElMessage
     } from 'element-plus'
     import {
@@ -129,9 +127,8 @@
 
     export default {
         components: {
-            VerificationCode
         },
-        setup(props) {
+        setup() {
             // 获取当前登录的用户信息
             var tokenStr = sessionStorage.getItem("userInfo");
             // 子组件的方法

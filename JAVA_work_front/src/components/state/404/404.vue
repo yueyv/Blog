@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <section class="w3l-error-61-404">
         <div class="error-61-mian">

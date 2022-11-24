@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="hidden-xs-only header-menu">
         <el-menu :default-active="route.path" @select="handleSect" :router="true" :ellipsis="false" class="el-menu-demo"
@@ -54,10 +55,8 @@
 
 <script>
     import {
-        ref,
         reactive,
         toRefs,
-        watch,
         onMounted
     } from 'vue'
 

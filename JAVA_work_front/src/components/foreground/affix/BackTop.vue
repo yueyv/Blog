@@ -9,7 +9,7 @@
 
 <script>
     import {
-        CaretTop
+
     } from '@element-plus/icons-vue'
     export default {}
 </script>

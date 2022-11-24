@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <el-row :gutter="20">
         <el-col :xs="0" :sm="1" :md="1" :lg="3" :xl="4">
@@ -78,8 +79,6 @@
     import ArticleCategories from '../../otherModules/articleCategories/index.vue';
     // 引入Featured资源
     import Resource from '../../otherModules/resource/index.vue';
-    // 引入OtherModules站点信息
-    import OtherModules from '../../otherModules/websiteInfo/index.vue'
 
     function loadData(state) {
         // 查询系统设置中设置好的精选文章的文章id
@@ -116,10 +115,9 @@
             RecentPosts,
             Technology,
             Resource,
-            OtherModules,
             ArticleCategories
         },
-        setup(props) {
+        setup() {
             //挂载后加载数据
             onMounted(() => {
                 loadData(state);

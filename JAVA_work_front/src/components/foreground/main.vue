@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div id="foreground">
         <div class="common-layout">
@@ -43,7 +44,7 @@
             MenuRight
         },
         setup() {
-            const route = useRoute()
+            useRoute();
         }
     }
 </script>
