@@ -10,9 +10,6 @@
             <el-menu-item index="/article">
                 <span>精品文章</span>
             </el-menu-item>
-            <el-menu-item index="/website">
-                <span>学习网站</span>
-            </el-menu-item>
             <!-- <el-menu-item index="/message">
                 <span>留言</span>
             </el-menu-item> -->

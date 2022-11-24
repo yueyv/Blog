@@ -46,8 +46,6 @@
   import OtherModules from '../../otherModules/websiteInfo/index.vue'
   // 其他内容 文章分类
   import ArticleCategories from '../../otherModules/articleCategories/index.vue';
-  // 引入advertising 广告
-  import Advertising from '../../otherModules/advertising/index.vue';
 
 
   function loadData(state) {

@@ -48,12 +48,7 @@ const routes = [
       meta: { title: 'JAVAEE课程设计 - 精品文章' },
       component: () => require.ensure([], (require) => require('../components/foreground/main/article/article.vue')),
 
-    }, {
-      path: "/website",
-      name: "学习网站",
-      meta: { title: 'JAVAEE课程设计 - 学习网站' },
-      component: () => require.ensure([], (require) => require('../components/foreground/main/website/website.vue'))
-    }, {
+    },  {
       path: "/message",
       name: "留言",
       meta: { title: 'JAVAEE课程设计 - 留言' },

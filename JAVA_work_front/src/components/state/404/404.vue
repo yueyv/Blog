@@ -16,12 +16,7 @@
                     </div>
 
                 </div>
-                <div class="copyright-footer">
-                    <div class="copy-right">
-                        <p>Copyright &copy;2020 <a href="/" title="404">JAVA_work.</a>
-                            All rights reserved.</p>
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
@@ -305,7 +300,7 @@
         background: transparent;
     }
 
-    .w3l-error-61-404 .copyright-footer {
+    .w3l-error-61-404 {
 
         margin: 100px auto 0;
 
