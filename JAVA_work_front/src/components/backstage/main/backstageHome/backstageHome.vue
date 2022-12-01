@@ -2,7 +2,7 @@
     <div class="backstage_home">
         <div class="top_bg">
             <h1>脚踏实地，笃志前行</h1>
-            <p>Bpvank博客后台管理系统·欢迎您，{{userInfo.userName}}</p>
+            <p>java_work后台管理系统·欢迎您，{{userInfo.userName}}</p>
         </div>
 
         <p style="margin-bottom:15px;color: #144b9f;">

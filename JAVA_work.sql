@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 80030
  Source Host           : localhost:3306
- Source Schema         : bpvank
+ Source Schema         : java_work
 
  Target Server Type    : MySQL
  Target Server Version : 80030
  File Encoding         : 65001
 
- Date: 22/11/2022 17:02:07
+ Date: 27/11/2022 19:58:52
 */
 
 SET NAMES utf8mb4;
@@ -41,12 +41,12 @@ CREATE TABLE `articleinfo`  (
   INDEX `fk_articleInfo_userId`(`userId`) USING BTREE,
   INDEX `fk_articleInfo_articleClassifyId`(`articleClassifyId`) USING BTREE,
   CONSTRAINT `fk_articleInfo_userId` FOREIGN KEY (`userId`) REFERENCES `userinfo` (`userId`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 66 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '文章管理表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 65 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '文章管理表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of articleinfo
 -- ----------------------------
-INSERT INTO `articleinfo` VALUES (1, 1, 'admin', 'JAVAEE课程设计', 6, '其他', 'let\'s go', '', '<p>测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1</p>', '2022-11-22 10:10:46', 1, 2, 1, 5, 0);
+INSERT INTO `articleinfo` VALUES (1, 1, 'admin', 'JAVAEE课程设计', 6, '其他', 'let\'s go', '', '<p>测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1</p>', '2022-11-22 10:10:46', 1, 2, 1, 9, 0);
 INSERT INTO `articleinfo` VALUES (61, 1, 'admin', 'day01', 1, '技术', '测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1', '', '<p>测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1测试文章1</p>', '2022-11-22 10:21:33', 1, 2, 1, 1, 0);
 INSERT INTO `articleinfo` VALUES (62, 1, 'admin', 'day02', 2, '资源', '测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2', '', '<p>测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2测试文章2</p>', '2022-11-22 10:21:55', 1, 2, 1, 0, 0);
 INSERT INTO `articleinfo` VALUES (63, 1, 'admin', 'day03', 3, '杂文', '测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3', '', '<p>测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3测试文章3</p>', '2022-11-22 10:22:13', 1, 2, 1, 0, 0);
@@ -67,21 +67,21 @@ CREATE TABLE `backstagemenuinfo`  (
   `parentMenuId` int NULL DEFAULT NULL COMMENT '父菜单id',
   `menuStatus` tinyint NULL DEFAULT NULL COMMENT '菜单是否可见',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '后台菜单表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '后台菜单表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of backstagemenuinfo
 -- ----------------------------
-INSERT INTO `backstagemenuinfo` VALUES (1, 'backstageHome', '后台首页', 'Bpvank - 后台首页', '/backstageHome', 'House', 0, 1);
-INSERT INTO `backstagemenuinfo` VALUES (2, 'articleOperation', '文章操作', 'Bpvank - 文章操作', '/articleOperation', 'Reading', 0, 1);
-INSERT INTO `backstagemenuinfo` VALUES (3, 'addArticle', '新建文章', 'Bpvank - 新建文章', '/addArticle', 'EditPen', 2, 1);
-INSERT INTO `backstagemenuinfo` VALUES (4, 'articleManager', '文章管理', 'Bpvank - 文章管理', '/articleManager', 'Edit', 2, 1);
-INSERT INTO `backstagemenuinfo` VALUES (5, 'classifyManager', '分类管理', 'Bpvank - 分类管理', '/classifyManager', 'FolderOpened', 2, 0);
-INSERT INTO `backstagemenuinfo` VALUES (6, 'commentManager', '评论管理', 'Bpvank - 评论管理', '/commentManager', 'ChatDotSquare', 0, 1);
-INSERT INTO `backstagemenuinfo` VALUES (7, 'userManager', '用户管理', 'Bpvank - 用户管理', '/userManager', 'MagicStick', 0, 0);
-INSERT INTO `backstagemenuinfo` VALUES (8, 'linkManager', '链接管理', 'Bpvank - 链接管理', '/linkManager', 'Link', 0, 0);
-INSERT INTO `backstagemenuinfo` VALUES (9, 'personSetup', '个人设置', 'Bpvank - 个人设置', '/personSetup', 'User', 0, 1);
-INSERT INTO `backstagemenuinfo` VALUES (10, 'systemSetup', '系统设置', 'Bpvank - 系统设置', '/systemSetup', 'Setting', 0, 0);
+INSERT INTO `backstagemenuinfo` VALUES (1, 'backstageHome', '后台首页', 'java_work- 后台首页', '/backstageHome', 'House', 0, 1);
+INSERT INTO `backstagemenuinfo` VALUES (2, 'articleOperation', '文章操作', 'java_work - 文章操作', '/articleOperation', 'Reading', 0, 1);
+INSERT INTO `backstagemenuinfo` VALUES (3, 'addArticle', '新建文章', 'java_work- 新建文章', '/addArticle', 'EditPen', 2, 1);
+INSERT INTO `backstagemenuinfo` VALUES (4, 'articleManager', '文章管理', 'java_work- 文章管理', '/articleManager', 'Edit', 2, 1);
+INSERT INTO `backstagemenuinfo` VALUES (5, 'classifyManager', '分类管理', 'java_work - 分类管理', '/classifyManager', 'FolderOpened', 2, 0);
+INSERT INTO `backstagemenuinfo` VALUES (6, 'commentManager', '评论管理', 'java_work - 评论管理', '/commentManager', 'ChatDotSquare', 0, 1);
+INSERT INTO `backstagemenuinfo` VALUES (7, 'userManager', '用户管理', 'java_work - 用户管理', '/userManager', 'MagicStick', 0, 0);
+INSERT INTO `backstagemenuinfo` VALUES (8, 'linkManager', '链接管理', 'java_work - 链接管理', '/linkManager', 'Link', 0, 0);
+INSERT INTO `backstagemenuinfo` VALUES (9, 'personSetup', '个人设置', 'java_work - 个人设置', '/personSetup', 'User', 0, 1);
+INSERT INTO `backstagemenuinfo` VALUES (10, 'systemSetup', '系统设置', 'java_work - 系统设置', '/systemSetup', 'Setting', 0, 0);
 
 -- ----------------------------
 -- Table structure for classifyinfo
@@ -95,7 +95,7 @@ CREATE TABLE `classifyinfo`  (
   `color1` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '渐变色1',
   `color2` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '渐变色2',
   PRIMARY KEY (`classifyId`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '分类管理表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '分类管理表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of classifyinfo
@@ -119,7 +119,7 @@ CREATE TABLE `commentinfo`  (
   `parentId` int NULL DEFAULT 0 COMMENT '父评论',
   `commentDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '评论日期',
   PRIMARY KEY (`commentId`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 103 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of commentinfo
@@ -132,7 +132,7 @@ DROP TABLE IF EXISTS `effects`;
 CREATE TABLE `effects`  (
   `effects01` tinyint(1) NULL DEFAULT 0 COMMENT '特效1',
   `effects02` tinyint(1) NULL DEFAULT 0 COMMENT '特效2'
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of effects
@@ -146,12 +146,16 @@ DROP TABLE IF EXISTS `logininfo`;
 CREATE TABLE `logininfo`  (
   `loginId` int NOT NULL COMMENT '登录的用户编号',
   `loginTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '登录时间'
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '登录管理表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '登录管理表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of logininfo
 -- ----------------------------
 INSERT INTO `logininfo` VALUES (1, '2022-11-21 20:36:40');
+INSERT INTO `logininfo` VALUES (36, '2022-11-22 17:17:19');
+INSERT INTO `logininfo` VALUES (36, '2022-11-23 08:05:10');
+INSERT INTO `logininfo` VALUES (1, '2022-11-23 09:28:29');
+INSERT INTO `logininfo` VALUES (1, '2022-11-23 10:15:00');
 
 -- ----------------------------
 -- Table structure for message
@@ -165,7 +169,7 @@ CREATE TABLE `message`  (
   `replyContent` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL COMMENT '回复留言内容',
   `messageDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '留言日期',
   PRIMARY KEY (`messageId`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 18 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of message
@@ -189,7 +193,7 @@ CREATE TABLE `systemsetup`  (
   `advertisingLink2` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '左侧广告链接1',
   `advertising3` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '右侧广告图2',
   `advertisingLink3` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '左侧广告链接1'
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of systemsetup
@@ -211,7 +215,7 @@ CREATE TABLE `urlinfo`  (
   `urlType` int NULL DEFAULT NULL COMMENT '链接类型',
   PRIMARY KEY (`urlId`) USING BTREE,
   UNIQUE INDEX `urlAddres`(`urlAddres`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 21 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '链接管理表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '链接管理表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of urlinfo
@@ -233,11 +237,13 @@ CREATE TABLE `userinfo`  (
   PRIMARY KEY (`userId`) USING BTREE,
   UNIQUE INDEX `userName`(`userName`) USING BTREE,
   UNIQUE INDEX `userEmail`(`userEmail`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 36 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '注册用户管理表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 37 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '注册用户管理表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of userinfo
 -- ----------------------------
 INSERT INTO `userinfo` VALUES (1, 0, 'admin', '123456', 'yueyvlunhui@gmail.com', '2022-11-22 10:10:56', 'JAVAEE课程设计', '');
+INSERT INTO `userinfo` VALUES (36, 1, 'yueyv', '123455', 'yueyvlunhui@foxmail.com', '2022-11-22 17:16:59', NULL, 'userIcon/90bbc2fe-98b6-47c1-b3cf-58b45deb46a4.jpg');
+INSERT INTO `userinfo` VALUES (37, 1, 'wangzx', '123455', '1365034957@qq.com', '2022-11-23 08:04:47', NULL, NULL);
 
 SET FOREIGN_KEY_CHECKS = 1;

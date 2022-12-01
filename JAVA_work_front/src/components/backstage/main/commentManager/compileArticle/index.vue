@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div>
         <el-dialog v-model="compileArticleDialogFormVisible" title="" width="85%"
@@ -100,7 +101,6 @@
         shallowRef,
         onBeforeUnmount,
         watch,
-        nextTick
     } from 'vue'
     import '@wangeditor/editor/dist/css/style.css' // 引入 css
 

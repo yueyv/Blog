@@ -45,9 +45,7 @@ app.use(ElementPlus, {
 app.use(hljsVuePlugin)
 
 // 配置请求的基准URL地址
-// axios.defaults.baseURL = "http://192.168.195.68";
 // axios.defaults.baseURL = "http://localhost/";
-// process.env.VUE_APP_XXX
 axios.defaults.baseURL = process.env.VUE_APP_URL;
 
 // 将所有图标进行全局注册
