@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
     <div style="height: 70px;box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;background: white;">
         <div class="linkBox">

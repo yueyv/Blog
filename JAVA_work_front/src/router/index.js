@@ -141,9 +141,6 @@ const router = createRouter({
   routes,
 });
 // 点击路由回到顶部
-router.afterEach((to,from,next) => {
-  window.scrollTo(0,0);
-})
 // 白名单
 const whiteList = ['/systemSetup', '/linkManager', "/userManager", "/classifyManager", "/labelManager", '/personSetup', "/backstage", '/commentManager', "/articleManager", "/addArticle", "/backstageHome",];
 const adminList = ['/systemSetup', '/linkManager', "/userManager", "/classifyManager", "/labelManager",];
