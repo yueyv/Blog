@@ -14,10 +14,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
 
-/**
- * 发送邮件
- * @author Bpvank
- */
+
 @WebServlet("/sendEmail")
 public class SendEmail  extends HttpServlet {
     @Override
