@@ -6,8 +6,7 @@
                 <h3>JAVAEE课程设计</h3>
             </div>
             <div class="content_box">
-                <p>基于Bqvank二次开发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bilibili.com/video/BV1bK411U7ef/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=b0ef45e18bfc6e281661d821293c23de" target="_blank" style="color: aqua;"><u> <b><em>Bqvank</em></b></u></a></p>
-                <p><b>开发技术：<br></b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端：</b>H5、css3、原生js、vue3.0、Element Plus、node.js <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>后端：</b>Java;&nbsp;17、spring、servlet
+                <p><b>开发技术：<br></b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端：</b>H5、css3、原生js、vue3.0、Element Plus、node.js <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>后端：</b>Java&nbsp;17、spring、servlet
                     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>数据库：</b>Mysql 8.0</p>
             </div>
         </div>

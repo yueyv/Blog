@@ -102,23 +102,11 @@ const routes = [
       meta: { title: 'JAVAEE课程设计 - 用户管理', chineseName: '用户管理' },
       component: () => require.ensure([], (require) => require('../components/backstage/main/userManager/userManager.vue'))
     }, {
-      // 链接管理
-      path: '/linkManager',
-      name: '链接管理',
-      meta: { title: 'JAVAEE课程设计 - 链接管理', chineseName: '链接管理' },
-      component: () => require.ensure([], (require) => require("../components/backstage/main/linkManager/linkManager.vue")),
-    }, {
       // 个人设置
       path: '/personSetup',
       name: '个人设置',
       meta: { title: 'JAVAEE课程设计 - 个人设置', chineseName: '个人设置' },
       component: () => require.ensure([], (require) => require("../components/backstage/main/personSetup/personSetup.vue")),
-    }, {
-      // 系统设置
-      path: '/systemSetup',
-      name: '系统设置',
-      meta: { title: 'JAVAEE课程设计 - 系统设置', chineseName: '系统设置' },
-      component: () => require.ensure([], (require) => require("../components/backstage/main/systemSetup/systemSetup.vue")),
     },]
   }, {
     // 404

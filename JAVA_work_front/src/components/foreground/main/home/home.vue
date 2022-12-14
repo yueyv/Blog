@@ -34,16 +34,11 @@
                 <el-col class="hidden-sm-and-down" :md="6" :lg="6" :xl="6">
                     <!-- 搜索功能 -->
                     <SearchCard></SearchCard>
-                    <!-- advertising 广告  传递参数：系统设置中设置好的广告图片、链接 -->
-                    <Advertising v-if="advertising2" :advertisingImg="advertising2" :advertisingLink="advertisingLink2">
-                    </Advertising>
                     <!-- 文章分类 -->
                     <ArticleCategories></ArticleCategories>
                     <!-- Resource 资源文章 -->
                     <Resource></Resource>
-                    <!-- advertising 广告  传递参数：系统设置中设置好的广告图片、链接 -->
-                    <Advertising v-if="advertising3" :advertisingImg="advertising3" :advertisingLink="advertisingLink3">
-                    </Advertising>
+                
                     <!-- 站点信息 -->
                     <OtherModules></OtherModules>
                 </el-col>
