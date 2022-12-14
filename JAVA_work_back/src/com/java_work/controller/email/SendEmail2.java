@@ -27,16 +27,8 @@ public class SendEmail2 extends HttpServlet {
         String registerEmail = req.getParameter("registerEmail");
         String content = req.getParameter("content");
 
-        //发件人的邮箱和密码（替换为自己的邮箱和密码）
-        //PS: 某些邮箱服务器为了增加邮箱本身密码的安全性，给 SMTP 客户端设置了独立密码（有的邮箱称为“授权码”）,
-        //对于开启了独立密码的邮箱, 这里的邮箱密码必需使用这个独立密码（授权码）。
 
-        //发件人邮箱的 SMTP服务器地址,必须准确,不同邮件服务器地址不同, 一般(只是一般, 绝非绝对)格式为: smtp.xxx.com
-        //网易163邮箱的 SMTP 服务器地址为: smtp.163.com
-        // String myEmailSMTPHost = "smtp.qq.com";
 
-        // 收件人邮箱（替换为自己知道的有效邮箱）
-        // String receiveMailAccount = "bpvank@qq.com";
 
         //1.创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();                    //参数配置
@@ -44,20 +36,7 @@ public class SendEmail2 extends HttpServlet {
         props.setProperty("mail.smtp.host", "smtp.qq.com");   //发件人的邮箱的 SMTP 服务器地址
         props.setProperty("mail.smtp.auth", "true");            //需要请求认证
 
-        // PS: 某些邮箱服务器要求 SMTP 连接需要使用 SSL 安全认证 (为了提高安全性, 邮箱支持SSL连接, 也可以自己开启),
-        //     如果无法连接邮件服务器, 仔细查看控制台打印的 log, 如果有有类似 “连接失败, 要求 SSL 安全连接” 等错误,
-        //     打开下面 /* ... */ 之间的注释代码, 开启 SSL 安全连接。
 
-        /*
-        // SMTP 服务器的端口 (非 SSL 连接的端口一般默认为 25, 可以不添加, 如果开启了 SSL 连接,
-        //                  需要改为对应邮箱的 SMTP 服务器的端口, 具体可查看对应邮箱服务的帮助,
-        //                  QQ邮箱的SMTP(SLL)端口为465或587, 其他邮箱自行去查看)
-        final String smtpPort = "465";
-        props.setProperty("mail.smtp.port", smtpPort);
-        props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        props.setProperty("mail.smtp.socketFactory.fallback", "false");
-        props.setProperty("mail.smtp.socketFactory.port", smtpPort);
-        */
 
         //2.根据配置创建会话对象, 用于和邮件服务器交互
         Session session = Session.getInstance(props);
@@ -66,7 +45,7 @@ public class SendEmail2 extends HttpServlet {
         //3.创建一封邮件
         MimeMessage message = null;
         try {
-            message = createMimeMessage(session, "642409495@qq.com", registerEmail,content);
+            message = createMimeMessage(session, "", registerEmail,content);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -94,7 +73,7 @@ public class SendEmail2 extends HttpServlet {
         //
         //PS_03:仔细看log,认真看log,看懂log,错误原因都在log已说明。
         try {
-            transport.connect("642409495@qq.com", "dpjosmifgmxkbbee");
+            transport.connect("", "");
         } catch (MessagingException e) {
             e.printStackTrace();
         }

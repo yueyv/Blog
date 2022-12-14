@@ -14,14 +14,14 @@ import javax.mail.internet.MimeMessage;
 public class mail_demo_test{
     public static void main(String [] args) {
 // 发送邮件
-        sendEmail("3274927818@qq.com","129218");
+        sendEmail("","123234");
     }
     private static void sendEmail(String registerEmail, String code) {
         // 收件人电子邮箱
         String to = registerEmail;
 
         // 发件人电子邮箱
-        String from = "642409495@qq.com";
+        String from = "";
 
         // 指定发送邮件的主机为 smtp.qq.com
         String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -37,9 +37,8 @@ public class mail_demo_test{
         // 获取默认session对象
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication() {
-                // 发件人邮件用户名、授权码
-                // 我的授权码gbuoutlxeriqjeae（写你自己）
-                return new PasswordAuthentication("642409495@qq.com", "dvcmfohbxgnabcbb");
+
+                return new PasswordAuthentication("642409495@qq.com", "");
             }
         });
 
