@@ -5,7 +5,7 @@ import com.java_work.entities.Message;
 import java.util.List;
 
 /**
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public interface MessageDao {
     // 添加留言

@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 修改链接审核结果
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/url/updateUrlPass")
 public class updateUrlPassServlet extends HttpServlet {

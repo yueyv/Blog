@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据留言id 回复留言  更新留言
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/message/updateMessageReply")
 public class updateMessageReplyServlet extends HttpServlet {

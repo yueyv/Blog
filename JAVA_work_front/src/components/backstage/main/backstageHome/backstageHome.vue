@@ -93,7 +93,7 @@
                         <span>发布了</span>
                         <span>
                             <a
-                                :href="'http://www.bpvank.com/articleDetails/' + item.articleId">{{item.articleTitle}}</a>
+                                :href="'http://www.yueyvlunhui.cn/articleDetails/' + item.articleId">{{item.articleTitle}}</a>
                         </span>
                     </p>
                     <a href="/article" class="more">

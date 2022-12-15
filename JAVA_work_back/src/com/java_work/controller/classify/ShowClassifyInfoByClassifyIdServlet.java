@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 根据分类id查询分类信息
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/classify/showClassifyInfoByClassifyId")
 public class ShowClassifyInfoByClassifyIdServlet extends HttpServlet {

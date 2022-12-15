@@ -50,7 +50,6 @@ public class SendEmail  extends HttpServlet {
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication() {
                 // 发件人邮件用户名、授权码
-                // 我的授权码gbuoutlxeriqjeae（写你自己）
                 return new PasswordAuthentication("642409495@qq.com", "dpjosmifgmxkbbee");
             }
         });

@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 添加登录信息
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/login/insertLoginInfo")
 public class InsertLoginInfoServlet extends HttpServlet {

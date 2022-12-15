@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public class LoginFilter implements Filter {
     public void destroy() {

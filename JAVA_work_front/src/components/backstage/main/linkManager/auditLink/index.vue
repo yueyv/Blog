@@ -160,7 +160,7 @@
                                     registerEmail: state.auditLinkInfo.webmasterEmail,
                                     content: "您好，" + state.auditLinkInfo.urlName + "(" + state
                                         .auditLinkInfo.urlAddres +
-                                        ")站长，您在Bpvank博客中申请添加链接已通过，合作共赢！"
+                                        ")站长，您在NUIST_JAVAEE博客中申请添加链接已通过，合作共赢！"
                                 }
                                 axios.get("/sendEmail", {
                                     params
@@ -198,7 +198,7 @@
                                     registerEmail: state.auditLinkInfo.webmasterEmail,
                                     content: "您好，" + state.auditLinkInfo.urlName + "(" + state
                                         .auditLinkInfo.urlAddres +
-                                        ")站长，您在Bpvank博客中申请添加链接失败。申请内容有误或站点内容不合适与本站建立连接，期待您更好的展现站点，再与我们合作，谢谢！"
+                                        ")站长，您在NUIST_JAVAEE博客中申请添加链接失败。申请内容有误或站点内容不合适与本站建立连接，期待您更好的展现站点，再与我们合作，谢谢！"
                                 }
                                 axios.get("/sendEmail", {
                                     params

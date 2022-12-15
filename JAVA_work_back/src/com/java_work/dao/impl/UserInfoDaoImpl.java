@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public class UserInfoDaoImpl implements UserInfoDao {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());

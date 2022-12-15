@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/articleVideoUpload")
 public class articleVideoUpload extends HttpServlet {

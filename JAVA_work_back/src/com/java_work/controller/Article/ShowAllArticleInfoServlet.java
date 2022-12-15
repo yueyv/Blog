@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 查询所有通过审核并且所有人可见的文章
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/showAllArticleInfo")
 public class ShowAllArticleInfoServlet extends HttpServlet {

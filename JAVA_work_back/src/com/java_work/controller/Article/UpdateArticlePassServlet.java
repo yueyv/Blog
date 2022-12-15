@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据文章id修改文章审核状态
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/article/updateArticlePass")
 public class UpdateArticlePassServlet extends HttpServlet {

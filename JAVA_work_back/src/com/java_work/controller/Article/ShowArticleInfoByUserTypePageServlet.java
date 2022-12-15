@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * 后台文章管理：分页查询+通过用户权限获取文章信息   管理员获取全部  普通用户获取自己的
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/article/page/byUserType")
 public class ShowArticleInfoByUserTypePageServlet extends HttpServlet {

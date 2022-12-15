@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * 根据链接类型传值
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/url/showAllUrlInfo")
 public class ShowUrlInfoServlet extends HttpServlet {

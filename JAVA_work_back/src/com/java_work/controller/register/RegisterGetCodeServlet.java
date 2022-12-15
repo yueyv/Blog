@@ -16,7 +16,7 @@ import java.util.Properties;
 
 /**
  * 获取前端生成的验证码，发送给注册用户邮箱
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/register/registerGetCode")
 public class RegisterGetCodeServlet extends HttpServlet {
@@ -36,7 +36,7 @@ public class RegisterGetCodeServlet extends HttpServlet {
         String to = registerEmail;
 
         // 发件人电子邮箱
-        String from = "bpvank@qq.com";
+        String from = "642409495@qq.com";
 
         // 指定发送邮件的主机为 smtp.qq.com
         String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -53,8 +53,7 @@ public class RegisterGetCodeServlet extends HttpServlet {
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication() {
                 // 发件人邮件用户名、授权码
-                // 我的授权码zmxukesdnhzgbhje（写你自己）
-                return new PasswordAuthentication("bpvank@qq.com", "zmxukesdnhzgbhje");
+                return new PasswordAuthentication("642409495@qq.com", "dpjosmifgmxkbbee");
             }
         });
 
@@ -70,9 +69,9 @@ public class RegisterGetCodeServlet extends HttpServlet {
                     new InternetAddress(to));
 
             // Set Subject: 头部头字段
-            message.setSubject("Bpvank博客邮箱验证");
+            message.setSubject("NUIST_JAVAEE博客邮箱验证");
             // 设置消息体
-            message.setText("【Bpvank博客】验证码：" + verificationCode + "，请勿将验证码告知他人，有效期3分钟，请妥善保管。");
+            message.setText("【NUIST_JAVAEE博客】验证码：" + verificationCode + "，请勿将验证码告知他人，有效期3分钟，请妥善保管。");
             // 发送消息
             Transport.send(message);
             // 发送成功

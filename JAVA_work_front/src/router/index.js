@@ -22,13 +22,13 @@ const routes = [
   {
     path: "/foreground",
     name: "首页",
-    meta: { title: 'JAVAEE课程设计 - 每天都是不一样' },
+    meta: { title: 'JAVAEE课程设计 - 刘辉 王子荀 鲁哲豪' },
     component: () => require.ensure([], (require) => require('../components/foreground/main.vue')),
     redirect: "/",
     children: [{
       path: "/",
       name: "首页",
-      meta: { title: 'JAVAEE课程设计 - 每天都是不一样' },
+      meta: { title: 'JAVAEE课程设计 - 刘辉 王子荀 鲁哲豪' },
       component: () => require.ensure([], (require) => require('../components/foreground/main/home/home.vue')),
     },{
       // 搜索

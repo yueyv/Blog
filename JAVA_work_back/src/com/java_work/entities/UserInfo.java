@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * 用户信息管理表
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public class UserInfo {
     private Integer userId; // 用户编号

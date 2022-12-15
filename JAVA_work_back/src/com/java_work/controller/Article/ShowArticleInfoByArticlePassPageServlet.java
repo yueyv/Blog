@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * 下拉框筛选文章审核状态，查询出相关内容并进行分页
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/article/search/pass")
 public class ShowArticleInfoByArticlePassPageServlet extends HttpServlet {

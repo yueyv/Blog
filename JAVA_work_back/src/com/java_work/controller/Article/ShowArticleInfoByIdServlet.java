@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 根据文章id获取文章信息
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/article/showArticleInfo")
 public class ShowArticleInfoByIdServlet extends HttpServlet {

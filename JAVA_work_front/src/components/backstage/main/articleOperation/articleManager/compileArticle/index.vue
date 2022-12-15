@@ -146,7 +146,7 @@
 
             const toolbarConfig = {}
             const editorConfig = {
-                placeholder: '在Bpvank，开始您的Write吧~',
+                placeholder: '在NUIST_JAVAEE，开始您的Write吧~',
                 MENU_CONF: {}
             }
             watch(valueHtml.value, function (value, oldvalue) {
@@ -278,8 +278,8 @@
                 var str = val.articleImgLitimg;
                 if (str.includes('http://101.43.207.70:8080/')) {
                     str = str.replaceAll('http://101.43.207.70:8080/', "");
-                } else if (str.includes('http://www.bpvank.com:8080/')) {
-                    str = str.replaceAll('http://www.bpvank.com:8080/', "");
+                } else if (str.includes('http://www.yueyvlunhui.cn:8080/')) {
+                    str = str.replaceAll('http://www.yueyvlunhui.cn:8080/', "");
                 }
                 state.write.thumbnailValue = str
                 state.write.classifyValue = val.articleClassifyId

@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * 查询所有评论
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/showAllComment")
 public class ShowAllCommentServlet extends HttpServlet {

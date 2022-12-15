@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * '后台菜单表'
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public class BackstageMenuInfo {
     private Integer id; // 菜单id

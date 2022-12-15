@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * 查询所有留言 并进行分页
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/message/pageShow")
 public class ShowMessagePageServlet extends HttpServlet {

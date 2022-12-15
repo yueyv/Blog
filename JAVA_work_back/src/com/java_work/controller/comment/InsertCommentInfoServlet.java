@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 /**
  * 添加评论
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/comment/insertCommentInfo")
 public class InsertCommentInfoServlet extends HttpServlet {

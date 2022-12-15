@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * 查询所有文章分类
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/showAllClassifyInfo")
 public class ShowAllClassifyInfoServlet extends HttpServlet {

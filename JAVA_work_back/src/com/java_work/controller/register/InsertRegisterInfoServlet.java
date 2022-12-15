@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 /**
  * 用户点击注册，所有验证都通过，则将用户注册信息添加进数据库
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/register/insertRegisterInfo")
 public class InsertRegisterInfoServlet extends HttpServlet {

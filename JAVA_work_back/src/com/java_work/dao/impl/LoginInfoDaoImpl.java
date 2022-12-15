@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 /**
  * 功能说明
  *
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  * @date 2022-08-05 16:39:02
  */
 public class LoginInfoDaoImpl implements LoginInfoDao {

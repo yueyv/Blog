@@ -31,7 +31,7 @@
                 }, {
                     name: "banner03",
                     url: require('../../../../../../assets/banner/banner04.png'),
-                    title: "冰，水为之而寒于水；"
+                    // title: "冰，水为之而寒于水；"
                 }, {
                     name: "banner04",
                     url: require('../../../../../../assets/banner/banner05.png'),
@@ -39,7 +39,7 @@
                 }, {
                     name: "banner05",
                     url: require('../../../../../../assets/banner/banner06.png'),
-                    title: "人生能有几回博，此时不博何时博;"
+                    // title: "人生能有几回博，此时不博何时博;"
                 }
             ]
 

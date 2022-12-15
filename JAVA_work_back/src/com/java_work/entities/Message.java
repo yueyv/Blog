@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * 留言
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 public class Message {
     private Integer messageId; // 留言编号

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  * @date 2022-07-20 10:21:21
  */
 public class BackstageMenuInfoDaoImpl implements BackstageMenuInfoDao {

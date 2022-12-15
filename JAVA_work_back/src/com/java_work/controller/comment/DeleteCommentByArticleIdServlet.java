@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  * 根据文章id删除评论
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/comment/deleteByArticleId")
 public class DeleteCommentByArticleIdServlet extends HttpServlet {

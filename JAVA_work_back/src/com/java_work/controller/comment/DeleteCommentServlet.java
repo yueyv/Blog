@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据评论id 删除评论
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/comment/delete")
 public class DeleteCommentServlet extends HttpServlet {

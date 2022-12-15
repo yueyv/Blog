@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据文章编号删除文章数据
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/article/delete")
 public class DeleteArticleInfoServlet extends HttpServlet {

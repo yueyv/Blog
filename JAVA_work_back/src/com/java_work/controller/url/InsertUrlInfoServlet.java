@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 /**
  * 添加链接
- * @author Bpvank
+ * @author 刘辉 王子荀 鲁哲豪
  */
 @WebServlet("/url/insert")
 public class InsertUrlInfoServlet extends HttpServlet {
