@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/userIcon")
 public class userIconUpload extends HttpServlet {

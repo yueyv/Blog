@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据文章id删除分类
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/classify/delete")
 public class DeleteClassifyServlet extends HttpServlet {

@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 用户信息管理
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public interface UserInfoDao {
     // 注册：根据客户端传的用户名，判断数据库中是否存在，不存在的话返回的List为空

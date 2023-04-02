@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 /**
  * 修改文章
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/article/updateArticleInfo")
 public class UpdateArticleInfoServlet extends HttpServlet {

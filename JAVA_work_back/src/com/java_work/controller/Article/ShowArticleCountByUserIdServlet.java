@@ -12,7 +12,7 @@ import java.io.IOException;
 
 /**
  * 查询通过审核文章总数
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/article/showArticleCountByUserId")
 public class ShowArticleCountByUserIdServlet extends HttpServlet {

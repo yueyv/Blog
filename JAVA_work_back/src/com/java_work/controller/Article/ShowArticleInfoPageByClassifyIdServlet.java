@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * 查询所有通过审核并且所有可见的文章  筛选条件  分类id
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/article/byClassifyId")
 public class ShowArticleInfoPageByClassifyIdServlet extends HttpServlet {

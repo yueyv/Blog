@@ -2,7 +2,7 @@ package com.java_work.entities;
 
 /**
  * 链接管理表
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class UrlInfo {
     private Integer urlId; // 链接编号

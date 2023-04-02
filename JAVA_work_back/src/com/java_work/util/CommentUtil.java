@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  * @date 2022-07-30 11:24:14
  */
 public class CommentUtil {

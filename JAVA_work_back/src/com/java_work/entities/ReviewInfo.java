@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * 评论管理表
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class ReviewInfo {
     private Integer reviewId; // 评论编号

@@ -12,7 +12,7 @@ import java.io.IOException;
 
 /**
  * 根据用户id查询该用户有多少篇文章
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/article/showArticleCount")
 public class ShowArticleCountServlet extends HttpServlet {

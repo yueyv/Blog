@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebFilter(filterName = "Filter_CrossOrigin",urlPatterns = "/*")
 public class Filter_CrossOrigin implements Filter {

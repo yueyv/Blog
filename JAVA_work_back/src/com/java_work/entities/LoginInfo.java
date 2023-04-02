@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * 登录管理表
  *
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class LoginInfo {
     private Integer loginId; // 登录编号

@@ -3,7 +3,7 @@ package com.java_work.entities;
 /**
  * 系统设置
  *
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class SystemSetup {
     private String stickArticle;// '置顶',

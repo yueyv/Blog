@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class ArticleInfo {
     /**

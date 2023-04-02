@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据留言编号 删除留言
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/message/delete")
 public class DeleteMessageServlet extends HttpServlet {

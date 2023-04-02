@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 查询所有用户
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/showAllUserInfo")
 public class ShowAllUserInfoServlet extends HttpServlet {

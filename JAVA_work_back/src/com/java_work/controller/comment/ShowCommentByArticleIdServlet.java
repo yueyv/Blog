@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * 根据文章id查询文章对应的评论
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/showCommentByArticleId")
 public class ShowCommentByArticleIdServlet extends HttpServlet {

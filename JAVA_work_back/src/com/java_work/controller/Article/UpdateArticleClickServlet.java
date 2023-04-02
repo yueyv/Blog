@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 修改文章点击量，每点击一次+1
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/article/updateArticleClick")
 public class UpdateArticleClickServlet extends HttpServlet {

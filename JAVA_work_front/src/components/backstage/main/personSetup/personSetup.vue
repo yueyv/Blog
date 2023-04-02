@@ -563,7 +563,7 @@
                         // 将验证码、用户输入的邮箱传给后台，发送给用户邮箱
                         const params = {
                             registerEmail: Email, // 用户当前邮箱
-                            content: "【NUIST_JAVAEE博客】验证码：" + state.toBind.verificationCode +
+                            content: "【Bpvank博客】验证码：" + state.toBind.verificationCode +
                                 "，此验证码用于更换邮箱绑定，请勿将验证码告知他人，有效期3分钟，请妥善保管。"
                         }
                         axios.get("/sendEmail", {

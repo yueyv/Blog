@@ -1,7 +1,7 @@
 package com.java_work.util;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  * @param <T>
  */
 public class JsonResult<T> {

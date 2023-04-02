@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据链接编号删除数据
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/url/delete")
 public class DeleteUrlInfoServlet extends HttpServlet {

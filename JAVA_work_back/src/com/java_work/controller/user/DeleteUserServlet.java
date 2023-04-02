@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * 根据用户id删除用户    同时删除用户的所有评论以及文章
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/user/delete")
 public class DeleteUserServlet extends HttpServlet {

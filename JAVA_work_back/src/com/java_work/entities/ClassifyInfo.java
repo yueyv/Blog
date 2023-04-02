@@ -2,7 +2,7 @@ package com.java_work.entities;
 
 /**
  * 文章分类表
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class ClassifyInfo {
     private Integer classifyId; // 分类编号

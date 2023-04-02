@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/sendEmail2")
 public class SendEmail2 extends HttpServlet {
@@ -36,7 +36,7 @@ public class SendEmail2 extends HttpServlet {
         // String myEmailSMTPHost = "smtp.qq.com";
 
         // 收件人邮箱（替换为自己知道的有效邮箱）
-        // String receiveMailAccount = "user@qq.com";
+        // String receiveMailAccount = "bpvank@qq.com";
 
         //1.创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();                    //参数配置

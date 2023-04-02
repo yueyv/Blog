@@ -6,7 +6,7 @@ import com.java_work.dao.impl.LoginInfoDaoImpl;
 /**
  * 功能说明
  *
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  * @date 2022-08-05 16:40:42
  */
 public class LoginInfoService {

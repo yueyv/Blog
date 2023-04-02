@@ -7,7 +7,7 @@ import com.java_work.entities.*;
 import java.util.List;
 
 /**
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 public class ArticleInfoService {
     ArticleInfoDao dao = new ArticleInfoDaoImpl();

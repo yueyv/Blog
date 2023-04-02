@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 重置密码
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/resetPassword/updateUserPass")
 public class updateUserPassServlet extends HttpServlet {

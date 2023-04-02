@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 /**
  * 根据分类id增加文章数量
- * @author 刘辉 王子荀 鲁哲豪
+ * @author Bpvank
  */
 @WebServlet("/updateArticleNumberByClassifyId")
 public class updateArticleNumberByClassifyIdServlet extends HttpServlet {
