@@ -6,11 +6,7 @@
 </template>
 
 <script>
-    import {
-        toRefs,
-        reactive,
-        onMounted
-    } from 'vue'
+    import {toRefs,reactive,onMounted} from 'vue'
     export default {
         props: {
             width: {

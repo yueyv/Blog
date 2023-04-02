@@ -1,27 +1,27 @@
 const { defineConfig } = require('@vue/cli-service')
 
 // 引入
-const glob = require('glob')
+// const glob = require('glob')
 
 const CompressionPlugin = require('compression-webpack-plugin');//引入gzip压缩插件
 
-function getEntry() {
-    let entrys = {}
-    // 获取pages目录下后缀为html的路径
-    glob.sync('./src/pages/**?/*.html').forEach(item => {
-        // 获取页面匹配名称
-        let urlArr = item.split('/').splice(-3)
-        entrys[urlArr[1]] = {
-            entry: 'src/pages/' + urlArr[1] + '/index.js',
-            template: 'src/pages/' + urlArr[1] + '/index.html',
-            filename: urlArr[1] + '.html',
-            title: 'pages-' + urlArr[1]
-        }
-    })
-    return entrys
-}
+// function getEntry() {
+//     let entrys = {}
+//     // 获取pages目录下后缀为html的路径
+//     glob.sync('./src/pages/**?/*.html').forEach(item => {
+//         // 获取页面匹配名称
+//         let urlArr = item.split('/').splice(-3)
+//         entrys[urlArr[1]] = {
+//             entry: 'src/pages/' + urlArr[1] + '/index.js',
+//             template: 'src/pages/' + urlArr[1] + '/index.html',
+//             filename: urlArr[1] + '.html',
+//             title: 'pages-' + urlArr[1]
+//         }
+//     })
+//     return entrys
+// }
 
-let pages = getEntry()
+// let pages = getEntry()
 
 module.exports = defineConfig({
     devServer: {
